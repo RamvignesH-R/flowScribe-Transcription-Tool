@@ -4,6 +4,7 @@ streamlit==1.42.0
 websockets==13.0
 faster-whisper==1.1.0
 ffmpeg-python==0.2.0
+pyannote.audio==3.3.2
 yt-dlp
 opencv-python-headless==4.11.0.86
 soundfile==0.13.0
