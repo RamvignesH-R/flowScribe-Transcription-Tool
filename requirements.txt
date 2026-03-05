@@ -12,5 +12,5 @@ numpy==1.26.4
 python-multipart==0.0.20
 pydantic==2.10.0
 python-dotenv==1.0.1
-torch==2.5.0
-torchaudio==2.5.0
+torch==2.9.0
+torchaudio==2.9.0
