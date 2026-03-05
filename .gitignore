@@ -1,0 +1,7 @@
+.env
+__pycache__/
+product_created/
+*.pyc
+*.wav
+*.mp3
+*.mp4
