@@ -1,10 +1,16 @@
+
 fastapi==0.115.0
 uvicorn[standard]
 streamlit==1.42.0
 websockets==13.0
+
 faster-whisper==1.1.0
-ffmpeg-python==0.2.0
 pyannote.audio==3.3.2
+
+torch==2.2.2
+torchaudio==2.2.2
+
+ffmpeg-python==0.2.0
 yt-dlp
 opencv-python-headless==4.11.0.86
 soundfile==0.13.0
@@ -12,5 +18,3 @@ numpy==1.26.4
 python-multipart==0.0.20
 pydantic==2.10.0
 python-dotenv==1.0.1
-torch==2.9.0
-torchaudio==2.9.0
