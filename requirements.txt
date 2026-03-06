@@ -1,6 +1,5 @@
-
 fastapi==0.115.0
-uvicorn[standard]
+uvicorn[standard]==0.30.6
 streamlit==1.42.0
 websockets==13.0
 
@@ -12,9 +11,9 @@ torchaudio==2.2.2
 
 ffmpeg-python==0.2.0
 yt-dlp
-opencv-python-headless==4.11.0.86
-soundfile==0.13.0
+opencv-python-headless
+soundfile
 numpy==1.26.4
-python-multipart==0.0.20
+python-multipart
 pydantic==2.10.0
-python-dotenv==1.0.1
+python-dotenv
