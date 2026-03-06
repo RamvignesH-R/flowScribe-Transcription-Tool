@@ -3,14 +3,12 @@ import requests
 import time
 import base64
 import os
-
-BACKEND_URL = "http://127.0.0.1:8502"  # Fixed port + IP
+BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8502")  # Fixed port + IP
 
 st.set_page_config(page_title="FlowScribe", layout="wide")
 st.title("FlowScribe – Real-time Transcription Tool")
 
 # Force longer default timeout
-import requests
 requests.adapters.DEFAULT_TIMEOUT = 30
 
 # ────────────────────────────────────────────────
